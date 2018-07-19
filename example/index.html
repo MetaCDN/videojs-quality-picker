@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="http://vjs.zencdn.net/6.6.3/video-js.css" rel="stylesheet">
+
+  <script src="http://vjs.zencdn.net/6.6.3/video.js"></script>
+  <script src="videojs-hlsjs-plugin.js"></script>
+  <script src="../dist/vjs-quality-picker.js"></script>
+</head>
+
+  <body>
+    <video id="my-video" class="video-js" controls preload="auto" width="640" height="264" data-setup="{}" autoplay>
+      <source src="https://bitdash-a.akamaihd.net/content/sintel/hls/playlist.m3u8">
+
+      <p class="vjs-no-js">
+        To view this video please enable JavaScript, and consider upgrading to a web browser that
+        <a href="http://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+      </p>
+    </video>
+    <script>
+      videojs('my-video').qualityPickerPlugin();
+    </script>
+  </body>
+</html>

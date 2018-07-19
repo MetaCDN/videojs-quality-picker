@@ -1,0 +1,9 @@
+{
+  "globals": {
+    "videojs": true
+  },
+  "extends": "eslint:recommended",
+  "parserOptions": {
+    "sourceType": "module"
+  }
+}

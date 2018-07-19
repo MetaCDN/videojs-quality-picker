@@ -1,0 +1,15 @@
+{ "authors": [
+    "Streamroot <contact@streamroot.io>"
+  ],
+  "homepage": "https://github.com/streamroot/videojs-quality-picker",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "license": "Apache-2.0",
+  "main": "lib/vjs-quality-picker.js",
+  "moduleType": "es6",
+  "name": "videojs-quality-picker",
+  "version": "0.0.3"
+}
